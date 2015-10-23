@@ -1,0 +1,141 @@
+/* 
+  Localizable.strings
+  Hekr
+
+  Created by Mario on 15/7/6.
+  Copyright (c) 2015年 Michael Hu. All rights reserved.
+*/
+
+CFBundleDisplayName = "HEKR";
+
+// TODO: Pulse
+"设置配置" = "Set the configuration";
+"你当前网络: %@" = "Your current network: %@";
+"如何进入?" = "How to enter?";
+"如何进入" = "How to enter";
+"未找到设备" = "The device was not found";
+"等待连接" = "Waiting for the connection";
+
+
+"正在为%@设置连接" = "Is set connection for % @";
+"当前设备名称是: %@" = "Is the device name: %@";
+"下拉可以刷新" = "The drop-down to refresh";
+"松开立即刷新" = "Loosen the refresh immediately";
+"加载中..." = "Loading...";
+"已开" = "ON";
+"已关" = "OFF";
+"未知" = "Unknown";
+"离线" = "N/A";
+
+// TODO: SettingViewController
+"选择热点" = "Choose hot";
+"确认该Wi-Fi网络无密码?" = "Confirm the password-less Wi-Fi network";
+"取消" = "Cancal";
+"确定" = "OK";
+"错误" = "Error";
+
+// main
+"设置" = "Setting";
+"删除" = "Remove";
+"删除失败" = "Remove failed";
+
+// device
+"设备名称" = "Name";
+"设备品牌" = "Brand";
+"设备型号" = "Model";
+"固件版本" = "Version";
+"输入新的名字" = "Input name";
+"改名失败" = "Rename failed";
+"名字应在15字以内，且不能为空格" = "Name should be less than 15 words and must not be blank";
+
+// !!!: AlertView
+"请确认手机WiFi已连接" = "Please make sure the mobile Wi-Fi connected";
+"建议检查手机网络" = "Suggest check mobile networks";
+"没找到设备" = "Couldn't find equipment";
+"您当前的网络是" = "Is your current network";
+"当前正在使用手机流量配置设备" = "Currently in use mobile phone flow configuration equipment";
+"当前无WiFi或者手机流量配置设备" = "Currently no wi-fi or mobile phone \nflow configuration device";
+"提示" = "Prompt";
+"网络连接失败" = "Network connection failure";
+"请您继续反馈一些" = "Please continue to nitpick";
+"您的反馈我们已经收到" = "You spit slot we have received";
+"您当前未连接Wi-Fi" = "You currently not connected wi-fi";
+"已连接 " = "The connected";
+"无法连接设备" = "Unable to connect the equipment";
+"本地登陆" = "local land";
+"请稍后,正在搜索附近的Wi-Fi列表" = "Please wait for a moment...";
+"提示, 请先选择设备的Wi-Fi" = "Prompt, please choose device wi-fi";
+"请稍后" = "Please later";
+"提示, 请查看设备是否选中或密码是否输入" = "Prompt, please check whether the equipment selected or the password is input";
+"设备添加成功" = "Equipment added successfully";
+"设备已经离线" = "Equipment has been offline";
+"在线" = "OL";
+"完成" = "Done";
+"选择设备" = "Choose Device";
+"热点列表正在加载中..." = "Hot list is loading...";
+"反馈失败,请您检查您的网络" = "Nitpick failed, please check your network";
+"      您当前的设备列表是空的, 请点击右上角'+'图标进行添加设备." = "Your current device list is empty, please click on the upper right corner of the '+' icon to add equipment.";
+
+
+"插座" = "outlet";
+"灭蚊灯" = "anti-mosquito lamp";
+"洗衣机" = "washing machine";
+"淋浴头" ="shower head";
+"窗帘" = "curtain";
+
+
+"摄像机" = "video camera";
+"电风扇" = "electric fan";
+"灯具" = "lighting";
+"电饼档" = "electric baking pan";
+"电烤箱" = "electronic oven";
+
+
+"微波炉" = "electronic oven";
+"面包机" = "toaster";
+"电炖锅" = "electric saucepan";
+"电力压锅" = "electric pressure cooker";
+"电饭煲" = "electric rice cooker";
+
+
+"果蔬解毒机" = "fruit and vegetable detoxification machine";
+"酸奶机" = "yogurt machine";
+"电水壶" = "electric kettle";
+"咖啡机" = "coffee machine";
+"豆浆机" = "soybean milk grinder";
+
+
+"榨汁机" = "juice extractor";
+"煮蛋机" = "egg-boiler";
+"洁身器" = "bidet toilet seat";
+"冰箱" = "refrigerator";
+"干衣机" = "clothes dryer";
+
+
+"吸尘器" = "vacuum cleaner";
+"净水设备" = "filter purifier";
+"饮水机" = "water dispenser";
+"冰柜" = "freezer";
+"消毒柜" = "disinfection cabinet";
+
+
+"摄像头" = "camera";
+"镜子" = "mirror";
+"开关" = "switch";
+"抽油烟机" = "range hood";
+"门锁" = "lock";
+
+
+"空调" = "air condition";
+"智能机器人" = "intelligent robots";
+"空气净化器" = "air cleaner";
+"取暖器" = "heating device";
+"加湿器" = "humidifier";
+
+
+"冷风扇" = "cool fan";
+"音响" = "audio system";
+"除湿机" = "dehumidifier";
+"衣架" = "laundry rack";
+"调光膜" = "dimming film";
+"浴霸" = "bathroom infrared heater";

@@ -1,0 +1,21 @@
+
+/* Class = "UIButton"; normalTitle = "显示密码"; ObjectID = "1QJ-ds-3VQ"; */
+"1QJ-ds-3VQ.normalTitle" = "Show the password";
+
+/* Class = "UIButton"; normalTitle = "如何进入?"; ObjectID = "4IF-kf-xXy"; */
+"4IF-kf-xXy.normalTitle" = "How to enter?";
+
+/* Class = "UILabel"; text = "当前版本仅支持Wi-Fi为2.4GHz"; ObjectID = "DKx-Y7-RXo"; */
+"DKx-Y7-RXo.text" = "The current version supports only Wi-Fi 2.4 GHz";
+
+/* Class = "UITextField"; placeholder = "请输入Wi-Fi密码:"; ObjectID = "RVD-oF-QFQ"; */
+"RVD-oF-QFQ.placeholder" = "Enter the password for Wi-Fi:";
+
+/* Class = "UILabel"; text = "你当前网络: %@"; ObjectID = "lk6-Xe-Ay2"; */
+"lk6-Xe-Ay2.text" = "Your current network: %@";
+
+/* Class = "UIButton"; normalTitle = "无法连接?"; ObjectID = "pTm-ND-MnH"; */
+"pTm-ND-MnH.normalTitle" = "Unable to connect?";
+
+/* Class = "UILabel"; text = "请将设备进入配置模式 "; ObjectID = "sPr-D5-3xb"; */
+"sPr-D5-3xb.text" = "Please put the equipment into \nconfiguration mode ";

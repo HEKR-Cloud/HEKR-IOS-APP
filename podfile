@@ -1,0 +1,13 @@
+platform :ios, '7.0'
+
+pod 'AFNetworking', '~> 2.5.1'
+pod 'SDWebImage', '~> 3.7.2'
+pod 'MMDrawerController', '~> 0.5.7'
+pod 'FMDB', '~> 2.5'
+pod 'SWTableViewCell', '~> 0.3.7'
+pod 'CocoaAsyncSocket', '~> 7.4.1'
+pod 'leveldb-library', '~> 1.18.1'
+pod 'SFHFKeychainUtils', '~> 0.0.1'
+pod 'SCLAlertView-Objective-C', '~> 0.3.7'
+pod 'MJRefresh', '~> 1.4.7'
+pod 'KVNProgress', '~> 2.2.1'

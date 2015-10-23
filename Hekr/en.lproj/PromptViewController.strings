@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "在系统设置中选择\"Hekr_xxxxxx\"热点"; ObjectID = "D94-hY-AbD"; */
+"D94-hY-AbD.text" = "In the system Settings in the options\"Hekr_xxxxxx\"hot";
+
+/* Class = "UILabel"; text = "默认密码\"12345678\""; ObjectID = "SZD-YK-Nk3"; */
+"SZD-YK-Nk3.text" = "The default password\"12345678\"";
+
+/* Class = "UILabel"; text = "请切换WiFi网络"; ObjectID = "cYk-Z0-NEg"; */
+"cYk-Z0-NEg.text" = "Please switch the Wi-Fi network";
+
+/* Class = "UIButton"; normalTitle = "取消"; ObjectID = "vdM-Vc-MED"; */
+"vdM-Vc-MED.normalTitle" = "Cancal";

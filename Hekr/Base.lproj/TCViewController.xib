@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A282b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TCViewController">
+            <connections>
+                <outlet property="dissMissButton" destination="gO7-mE-Zvy" id="lgs-S6-lLg"/>
+                <outlet property="gagBackButton" destination="oDA-NT-gaY" id="Bvh-yB-Yad"/>
+                <outlet property="gagPlaceHolder" destination="rJR-oe-AI6" id="lta-3E-c4R"/>
+                <outlet property="gagSendMegButton" destination="CfB-Qi-b84" id="zmK-uP-rEV"/>
+                <outlet property="gagSubTitleLabel" destination="Yes-LO-5es" id="hJK-a8-Xyf"/>
+                <outlet property="gagTitleLabel" destination="t41-hf-etd" id="G3f-yq-6Ab"/>
+                <outlet property="turnBack" destination="JgQ-rG-wtM" id="Csd-sf-rmA"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UiP-aR-hd0">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="68"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oDA-NT-gaY">
+                            <rect key="frame" x="16" y="8" width="60" height="60"/>
+                            <animations/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="oDA-NT-gaY" secondAttribute="height" multiplier="1:1" id="vD5-Ng-FNG"/>
+                            </constraints>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="touchGagBackButton:" destination="-1" eventType="touchUpInside" id="2FW-2H-Wge"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="反馈" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t41-hf-etd">
+                            <rect key="frame" x="125" y="32" width="70" height="21"/>
+                            <animations/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="t41-hf-etd" secondAttribute="height" multiplier="10:3" id="KxO-TF-YUz"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JgQ-rG-wtM">
+                            <rect key="frame" x="36" y="33" width="16" height="16"/>
+                            <animations/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="JgQ-rG-wtM" secondAttribute="height" multiplier="1:1" id="Efb-AQ-y9R"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="turnLeft">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="touchGagBackButton:" destination="-1" eventType="touchUpInside" id="e9B-zi-BmG"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="JgQ-rG-wtM" firstAttribute="leading" secondItem="UiP-aR-hd0" secondAttribute="leading" constant="36" id="3ej-zM-P40"/>
+                        <constraint firstAttribute="bottom" secondItem="oDA-NT-gaY" secondAttribute="bottom" id="88N-Ae-ZMK"/>
+                        <constraint firstItem="t41-hf-etd" firstAttribute="leading" secondItem="UiP-aR-hd0" secondAttribute="leading" constant="125" id="9Vm-79-19R"/>
+                        <constraint firstItem="JgQ-rG-wtM" firstAttribute="top" secondItem="UiP-aR-hd0" secondAttribute="top" constant="33" id="9e9-d3-Hrp"/>
+                        <constraint firstItem="oDA-NT-gaY" firstAttribute="leading" secondItem="UiP-aR-hd0" secondAttribute="leading" constant="16" id="F8D-tM-o7q"/>
+                        <constraint firstAttribute="bottom" secondItem="JgQ-rG-wtM" secondAttribute="bottom" constant="19" id="LLg-3O-ak5"/>
+                        <constraint firstItem="oDA-NT-gaY" firstAttribute="top" secondItem="UiP-aR-hd0" secondAttribute="top" constant="8" id="PJl-ow-E9l"/>
+                        <constraint firstAttribute="trailing" secondItem="t41-hf-etd" secondAttribute="trailing" constant="125" id="SlH-ex-Zdv"/>
+                        <constraint firstAttribute="width" secondItem="UiP-aR-hd0" secondAttribute="height" multiplier="80:17" id="XCP-fk-TzC"/>
+                        <constraint firstItem="t41-hf-etd" firstAttribute="top" secondItem="UiP-aR-hd0" secondAttribute="top" constant="32" id="spY-8Q-pwT"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HEKR的每一个进步, 离不开您的反馈" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yes-LO-5es">
+                    <rect key="frame" x="41" y="86" width="239" height="32"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Yes-LO-5es" secondAttribute="height" multiplier="239:32" id="wkN-M8-DeW"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CfB-Qi-b84">
+                    <rect key="frame" x="60" y="333" width="201" height="35"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="CfB-Qi-b84" secondAttribute="height" multiplier="201:35" id="OOc-8i-lOW"/>
+                    </constraints>
+                    <state key="normal" title="发送">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="touchGagSendMegButton:" destination="-1" eventType="touchUpInside" id="Ss3-AZ-jcf"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gagViewController_TextField" translatesAutoresizingMaskIntoConstraints="NO" id="FuK-MW-aHn">
+                    <rect key="frame" x="40" y="144" width="240" height="124"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="FuK-MW-aHn" secondAttribute="height" multiplier="60:31" id="Cf0-0v-ZhA"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gO7-mE-Zvy">
+                    <rect key="frame" x="60" y="392" width="201" height="35"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="gO7-mE-Zvy" secondAttribute="height" multiplier="201:35" id="ev2-wm-j2j"/>
+                    </constraints>
+                    <state key="normal" title="取消">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="touchGagBackButton:" destination="-1" eventType="touchUpInside" id="6nb-7K-8sM"/>
+                    </connections>
+                </button>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rJR-oe-AI6" customClass="UIPlaceHolderTextView">
+                    <rect key="frame" x="47" y="164" width="227" height="104"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="rJR-oe-AI6" secondAttribute="height" multiplier="227:104" id="0bz-KF-v9e"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" red="0.93725490196078431" green="0.94117647058823528" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="Yes-LO-5es" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="41" id="569-nq-Rtj"/>
+                <constraint firstItem="gO7-mE-Zvy" firstAttribute="top" secondItem="CfB-Qi-b84" secondAttribute="bottom" constant="24" id="5gJ-L2-XVQ"/>
+                <constraint firstItem="CfB-Qi-b84" firstAttribute="top" secondItem="rJR-oe-AI6" secondAttribute="bottom" constant="65" id="CYZ-5W-uF8"/>
+                <constraint firstAttribute="trailing" secondItem="FuK-MW-aHn" secondAttribute="trailing" constant="40" id="Cm3-Uy-agc"/>
+                <constraint firstItem="Yes-LO-5es" firstAttribute="top" secondItem="UiP-aR-hd0" secondAttribute="bottom" constant="18" id="FjA-Wy-2aT"/>
+                <constraint firstAttribute="trailing" secondItem="CfB-Qi-b84" secondAttribute="trailing" constant="59" id="HIN-uk-bFN"/>
+                <constraint firstItem="gO7-mE-Zvy" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="60" id="MHd-B6-7bD"/>
+                <constraint firstItem="FuK-MW-aHn" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="XxD-mo-6h2"/>
+                <constraint firstAttribute="trailing" secondItem="UiP-aR-hd0" secondAttribute="trailing" id="bAG-Gb-3iy"/>
+                <constraint firstItem="rJR-oe-AI6" firstAttribute="top" secondItem="Yes-LO-5es" secondAttribute="bottom" constant="46" id="dmV-JD-403"/>
+                <constraint firstItem="FuK-MW-aHn" firstAttribute="top" secondItem="Yes-LO-5es" secondAttribute="bottom" constant="26" id="hZO-4X-xKS"/>
+                <constraint firstItem="UiP-aR-hd0" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="n2S-aV-UAG"/>
+                <constraint firstAttribute="trailing" secondItem="gO7-mE-Zvy" secondAttribute="trailing" constant="59" id="nyl-cN-aRP"/>
+                <constraint firstItem="rJR-oe-AI6" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="47" id="qb3-Zk-apg"/>
+                <constraint firstAttribute="trailing" secondItem="rJR-oe-AI6" secondAttribute="trailing" constant="46" id="sMw-Io-6Ab"/>
+                <constraint firstItem="CfB-Qi-b84" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="60" id="uag-8K-qzF"/>
+                <constraint firstAttribute="trailing" secondItem="Yes-LO-5es" secondAttribute="trailing" constant="40" id="vVo-2C-emy"/>
+                <constraint firstItem="UiP-aR-hd0" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="y4C-fj-SvD"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="4" y="20"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="gagViewController_TextField" width="502" height="235"/>
+        <image name="turnLeft" width="32" height="32"/>
+    </resources>
+</document>

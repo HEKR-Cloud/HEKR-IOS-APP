@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "关于我们"; ObjectID = "SE2-lw-J4C"; */
+"SE2-lw-J4C.text" = "关于我们";
+
+/* Class = "UILabel"; text = "扫一扫 HEKR二维码"; ObjectID = "X1Z-QJ-loo"; */
+"X1Z-QJ-loo.text" = "扫一扫 HEKR二维码";
+
+/* Class = "UILabel"; text = "   我们致力于构建物联网软硬件基础设施, 提供最极致的服务。"; ObjectID = "Z6W-OO-2hf"; */
+"Z6W-OO-2hf.text" = "   我们致力于构建物联网软硬件基础设施, 提供最极致的服务。";
+
+/* Class = "UIButton"; normalTitle = "HEKR 官网"; ObjectID = "cOY-un-chQ"; */
+"cOY-un-chQ.normalTitle" = "访问官网";
+
+/* Class = "UILabel"; text = "HEKR"; ObjectID = "eSw-Xc-NwW"; */
+"eSw-Xc-NwW.text" = "HEKR";
+
+/* Class = "UILabel"; text = "  我们为用户免费提供智能家居服务和APP; 为企业厂商免费提供数据分析平台, 和云技术, 软硬件服务; 为开发者免费提供一站式智能。硬件开发框架。"; ObjectID = "nAd-hp-GKP"; */
+"nAd-hp-GKP.text" = "  我们为用户免费提供智能家居服务和APP; 为企业厂商免费提供数据分析平台、云技术软硬件服务; 为开发者免费提供一站式智能硬件开发框架。";
+
+
+

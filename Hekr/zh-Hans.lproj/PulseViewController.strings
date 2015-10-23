@@ -1,0 +1,18 @@
+
+/* Class = "UIButton"; normalTitle = "显示密码"; ObjectID = "1QJ-ds-3VQ"; */
+"1QJ-ds-3VQ.normalTitle" = "显示密码";
+
+/* Class = "UIButton"; normalTitle = "如何进入?"; ObjectID = "4IF-kf-xXy"; */
+"4IF-kf-xXy.normalTitle" = "如何进入?";
+
+/* Class = "UITextField"; placeholder = "请输入Wi-Fi密码:"; ObjectID = "RVD-oF-QFQ"; */
+"RVD-oF-QFQ.placeholder" = "请输入Wi-Fi密码:";
+
+/* Class = "UILabel"; text = "你当前网络: %@"; ObjectID = "lk6-Xe-Ay2"; */
+"lk6-Xe-Ay2.text" = "你当前网络: %@";
+
+/* Class = "UIButton"; normalTitle = "无法连接?"; ObjectID = "pTm-ND-MnH"; */
+"pTm-ND-MnH.normalTitle" = "无法连接?";
+
+/* Class = "UILabel"; text = "请将设备进入配置模式 "; ObjectID = "sPr-D5-3xb"; */
+"sPr-D5-3xb.text" = "请将设备进入配置模式 ";

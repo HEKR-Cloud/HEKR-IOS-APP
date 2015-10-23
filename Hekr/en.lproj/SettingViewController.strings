@@ -1,0 +1,24 @@
+
+/* Class = "UIButton"; normalTitle = "  选择热点"; ObjectID = "154-qM-QkF"; */
+"154-qM-QkF.normalTitle" = "Choose hot";
+
+/* Class = "UIButton"; normalTitle = "完成"; ObjectID = "2Ul-Bf-ued"; */
+"2Ul-Bf-ued.normalTitle" = "Done";
+
+/* Class = "UILabel"; text = "为设备注入智慧"; ObjectID = "Ng0-Fe-EXL"; */
+"Ng0-Fe-EXL.text" = "Smart Matrix";
+
+/* Class = "UITextField"; placeholder = "输入密码"; ObjectID = "dLb-tr-B3r"; */
+"dLb-tr-B3r.placeholder" = "Enter password";
+
+/* Class = "UIButton"; normalTitle = "显示密码"; ObjectID = "eqR-tF-ST2"; */
+"eqR-tF-ST2.normalTitle" = "Show password";
+
+/* Class = "UILabel"; text = "还需要以下三步"; ObjectID = "ng9-Q0-hwz"; */
+"ng9-Q0-hwz.text" = "Three steps to add device";
+
+/* Class = "UIButton"; normalTitle = "  选择设备"; ObjectID = "odS-5J-41a"; */
+"odS-5J-41a.normalTitle" = "Choose Device";
+
+/* Class = "UILabel"; text = "正在为\"%@\"设置连接"; ObjectID = "sZK-9q-Gya"; */
+"sZK-9q-Gya.text" = "Is set connection for %@";

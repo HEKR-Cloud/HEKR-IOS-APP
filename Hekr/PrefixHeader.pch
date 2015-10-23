@@ -1,0 +1,32 @@
+//
+//  PrefixHeader.pch
+//  Hekr
+//
+//  Created by Michael Scofield on 2015-06-24.
+//  Copyright (c) 2015 Michael Hu. All rights reserved.
+//
+#import <Availability.h>
+#ifndef Hekr_PrefixHeader_pch
+#define Hekr_PrefixHeader_pch
+#import "std.h"
+#import "SCLAlertView.h"
+#import <KVNProgress/KVNProgress.h>
+#import "HekrRuntime.h"
+#import "NSArray+Funcussion.h"
+#import "NSDictionary+Funcussion.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#undef	AS_SINGLETON
+#define AS_SINGLETON( __class ) \
++ (__class *)sharedInstance;
+
+#undef	DEF_SINGLETON
+#define DEF_SINGLETON( __class ) \
++ (__class *)sharedInstance \
+{ \
+static dispatch_once_t once; \
+static __class * __singleton__; \
+dispatch_once( &once, ^{ __singleton__ = [[__class alloc] init]; } ); \
+return __singleton__; \
+}
+#endif

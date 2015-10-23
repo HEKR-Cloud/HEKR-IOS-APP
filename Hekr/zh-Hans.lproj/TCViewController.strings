@@ -1,0 +1,12 @@
+
+/* Class = "UIButton"; normalTitle = "发送"; ObjectID = "CfB-Qi-b84"; */
+"CfB-Qi-b84.normalTitle" = "发送";
+
+/* Class = "UILabel"; text = "HEKR的每一个进步, 离不开您的吐槽"; ObjectID = "Yes-LO-5es"; */
+"Yes-LO-5es.text" = "HEKR的每一个进步, 离不开您的反馈";
+
+/* Class = "UIButton"; normalTitle = "取消"; ObjectID = "gO7-mE-Zvy"; */
+"gO7-mE-Zvy.normalTitle" = "取消";
+
+/* Class = "UILabel"; text = "吐槽"; ObjectID = "t41-hf-etd"; */
+"t41-hf-etd.text" = "反馈";
